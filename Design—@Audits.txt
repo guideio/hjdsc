@@ -1,0 +1,34 @@
+Please perform a complete design system audit for this entire app.
+
+Evaluate how the components, styles, and assets are structured, organized, and documented
+after the reorganization process. Generate a detailed Markdown report in the `/reports` folder.
+
+================
+🔍 AUDIT SCOPE
+================
+1. 🧩 Component Structure  
+   - Review how each component or page is organized under its respective folders  
+   - Check naming conventions, hierarchy, and reusability  
+
+2. 🎨 Design Consistency  
+   - Evaluate token usage (color, spacing, typography, etc.)  
+   - Verify that shared styles (global-styles.css, tokens.css, special-cases.css) are consistently applied  
+   - Identify redundant or conflicting style definitions  
+
+3. ⚙️ Technical Implementation  
+   - Check for semantic HTML and accessibility  
+   - Validate CSS organization, imports, and maintainability  
+   - Confirm that JS utilities and scripts are modular and scoped properly  
+
+4. 📚 Documentation & Clarity  
+   - Verify that each component, page, or section includes brief documentation  
+   - Ensure the main README.md and folder-level READMEs describe structure and purpose  
+
+5. 🚀 Optimization Opportunities  
+   - Identify files or components that could be simplified, merged, or re-abstracted  
+   - Suggest performance or maintainability improvements  
+
+
+Produce design reports  named `XX-DESIGN-AUDITS.md` inside `/reports/`.  
+Organize findings under the above sections and include specific recommendations
+for improving clarity, scalability, and design consistency across the system.
